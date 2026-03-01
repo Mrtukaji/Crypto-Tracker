@@ -34,7 +34,7 @@ async function getCrypto() {
 
         <p>Symbol: ${coin.symbol.toUpperCase()}</p>
 
-        <p>Price: $${coin.current_price.toLocaleString()}</p>
+        <p>Current Price: $${coin.current_price.toLocaleString()}</p>
 
         <p class="${changeClass}">
             24h Change: ${change.toFixed(2)}%
